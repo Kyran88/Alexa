@@ -24,7 +24,7 @@
 var AlexaSkill = require('./AlexaSkill'),
     exercises = require('./exercises');
 
-var APP_ID = "App Id Here";   // undefined; //replace with 'amzn1.echo-sdk-ams.app.[your-unique-value-here]';
+var APP_ID = "amzn1.ask.skill.bb7a282d-0f4e-4792-be1e-85773ca97200"; 
 
 /**
  * To read more about inheritance in JavaScript, see the link below.
@@ -40,7 +40,7 @@ ExerciseHowTo.prototype = Object.create(AlexaSkill.prototype);
 ExerciseHowTo.prototype.constructor = ExerciseHowTo;
 
 ExerciseHowTo.prototype.eventHandlers.onLaunch = function (launchRequest, session, response) {
-    var speechText = "Welcome to the Exercise How To. You can ask a question like, how do i make a cobra pose? ... Now, what can I help you with.";
+    var speechText = "Welcome to the Exercise How To. You can ask a question like, how do i perform a Squat? ... Now, what can I help you with.";
     // If the user either does not reply to the welcome message or says something that is not
     // understood, they will be prompted again with this text.
     var repromptText = "For instructions on what you can say, please say help me.";
@@ -96,7 +96,7 @@ ExerciseHowTo.prototype.intentHandlers = {
 
     "AMAZON.HelpIntent": function (intent, session, response) {
         var speechText = "You can ask questions about Exercises such as, how do i do Squats, or, you can say exit... Now, what can I help you with?";
-        var repromptText = "You can say things like, how do i do push-ups, or you can say exit... Now, what can I help you with?";
+        var repromptText = "You can say things like, how do i Perform push-ups, or you can say exit... Now, what can I help you with?";
         var speechOutput = {
             speech: speechText,
             type: AlexaSkill.speechOutputType.PLAIN_TEXT
