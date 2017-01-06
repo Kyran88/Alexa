@@ -17,7 +17,7 @@ ExerciseIntent how can you make a {Exercise}
 ExerciseIntent how can you make an {Exercise}
 ExerciseIntent how can you make {Exercise}
 ExerciseIntent how do I execute a {Exercise}
-ExerciseIntent how do I execute an {Pose}
+ExerciseIntent how do I execute an {Exercise}
 ExerciseIntent how do I execute {Exercise}
 ExerciseIntent how do I start a {Exercise}
 ExerciseIntent how do I start an {Exercise}
