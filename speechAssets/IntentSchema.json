@@ -1,0 +1,22 @@
+{
+  "intents": [
+    {
+      "intent": "ExerciseIntent",
+      "slots": [
+      {
+        "name" : "Item",
+        "type": "LIST_OF_EXERCISES"
+      }
+     ]
+    },
+   {
+      "intent": "AMAZON.HelpIntent"
+    },
+    {
+      "intent": "AMAZON.StopIntent"
+    },
+    {
+      "intent": "AMAZON.CancelIntent"
+    }
+  ]
+}
