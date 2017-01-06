@@ -4,7 +4,7 @@
       "intent": "ExerciseIntent",
       "slots": [
       {
-        "name" : "Item",
+        "name" : "exercises",
         "type": "LIST_OF_EXERCISES"
       }
      ]
