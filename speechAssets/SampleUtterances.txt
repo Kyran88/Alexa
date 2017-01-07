@@ -1,73 +1,73 @@
-ExerciseIntent how can I do a {Exercise}
-ExerciseIntent how can I do an {Exercise}
-ExerciseIntent how can I do {Exercise}
-ExerciseIntent how can I get a {Exercise}
-ExerciseIntent how can I get an {Exercise}
-ExerciseIntent how can I get {Exercise}
-ExerciseIntent how can I make a {Exercise}
-ExerciseIntent how can I make an {Exercise}
-ExerciseIntent how can I make {Exercise}
-ExerciseIntent how can you perform a {Exercise}
-ExerciseIntent how can you perform an {Exercise}
-ExerciseIntent how can you perform {Exercise}
-ExerciseIntent how can you get a {Exercise}
-ExerciseIntent how can you get an {Exercise}
-ExerciseIntent how can you get {Exercise}
-ExerciseIntent how can you make a {Exercise}
-ExerciseIntent how can you make an {Exercise}
-ExerciseIntent how can you make {Exercise}
-ExerciseIntent how do I execute a {Exercise}
-ExerciseIntent how do I execute an {Exercise}
-ExerciseIntent how do I execute {Exercise}
-ExerciseIntent how do I start a {Exercise}
-ExerciseIntent how do I start an {Exercise}
-ExerciseIntent how do I start {Exercise}
-ExerciseIntent how do I get a {Exercise}
-ExerciseIntent how do I get an {Exercise}
-ExerciseIntent how do I get {Exercise}
-ExerciseIntent how do I make a {Exercise}
-ExerciseIntent how do I make an {Exercise}
-ExerciseIntent how do I make {Exercise}
-ExerciseIntent how do you perform a {Exercise}
-ExerciseIntent how do you perform an {Exercise}
-ExerciseIntent how do you perform {Exercise}
-ExerciseIntent how do you get a {Exercise}
-ExerciseIntent how do you get an {Exercise}
-ExerciseIntent how do you get {Exercise}
-ExerciseIntent how do you make a {Exercise}
-ExerciseIntent how do you make an {Exercise}
-ExerciseIntent how do you make {Exercise}
-ExerciseIntent how is a {Exercise} performed
-ExerciseIntent how is a {Exercise} executed
-ExerciseIntent how is an {Exercise} performed
-ExerciseIntent how is an {Exercise} executed
-ExerciseIntent how is {Exercise} performed
-ExerciseIntent how is {Exercise} made
-ExerciseIntent how {Exercise} is made
-ExerciseIntent position for a {Exercise}
-ExerciseIntent position for an {Exercise}
-ExerciseIntent position for {Exercise}
-ExerciseIntent position's for a {Exercise}
-ExerciseIntent position's for an {Exercise}
-ExerciseIntent position's for {Exercise}
-ExerciseIntent what is in a {Exercise}
-ExerciseIntent what is in an {Exercise}
-ExerciseIntent what is in {Exercise}
-ExerciseIntent what is the position for a {Exercise}
-ExerciseIntent what is the position for an {Exercise}
-ExerciseIntent what is the position for {Exercise}
-ExerciseIntent what's in a {Exercise}
-ExerciseIntent what's in an {Exercise}
-ExerciseIntent what's in {Exercise}
-ExerciseIntent what's the Exercise for a {Exercise}
-ExerciseIntent what's the Exercise for an {Exercise}
-ExerciseIntent what's the Exercise for {Exercise}
-ExerciseIntent how to craft {Exercise}
-ExerciseIntent how to craft a {Exercise}
-ExerciseIntent how to craft an {Exercise}
-ExerciseIntent how to make a {Exercise} Exercise
-ExerciseIntent how to make an {Exercise} Exercise
-ExerciseIntent how to make {Exercise} Exercise
-ExerciseIntent how to get a {Exercise} Exercise
-ExerciseIntent how to get an {Exercise} Exercise
-ExerciseIntent how to get {Exercise} Exercise
+SkillIntent how can I do a {Exercise}
+SkillIntent how can I do an {Exercise}
+SkillIntent how can I do {Exercise}
+SkillIntent how can I get a {Exercise}
+SkillIntent how can I get an {Exercise}
+SkillIntent how can I get {Exercise}
+SkillIntent how can I make a {Exercise}
+SkillIntent how can I make an {Exercise}
+SkillIntent how can I make {Exercise}
+SkillIntent how can you perform a {Exercise}
+SkillIntent how can you perform an {Exercise}
+SkillIntent how can you perform {Exercise}
+SkillIntent how can you get a {Exercise}
+SkillIntent how can you get an {Exercise}
+SkillIntent how can you get {Exercise}
+SkillIntent how can you make a {Exercise}
+SkillIntent how can you make an {Exercise}
+SkillIntent how can you make {Exercise}
+SkillIntent how do I execute a {Exercise}
+SkillIntent how do I execute an {Exercise}
+SkillIntent how do I execute {Exercise}
+SkillIntent how do I start a {Exercise}
+SkillIntent how do I start an {Exercise}
+SkillIntent how do I start {Exercise}
+SkillIntent how do I get a {Exercise}
+SkillIntent how do I get an {Exercise}
+SkillIntent how do I get {Exercise}
+SkillIntent how do I make a {Exercise}
+SkillIntent how do I make an {Exercise}
+SkillIntent how do I make {Exercise}
+SkillIntent how do you perform a {Exercise}
+SkillIntent how do you perform an {Exercise}
+SkillIntent how do you perform {Exercise}
+SkillIntent how do you get a {Exercise}
+SkillIntent how do you get an {Exercise}
+SkillIntent how do you get {Exercise}
+SkillIntent how do you make a {Exercise}
+SkillIntent how do you make an {Exercise}
+SkillIntent how do you make {Exercise}
+SkillIntent how is a {Exercise} performed
+SkillIntent how is a {Exercise} executed
+SkillIntent how is an {Exercise} performed
+SkillIntent how is an {Exercise} executed
+SkillIntent how is {Exercise} performed
+SkillIntent how is {Exercise} made
+SkillIntent how {Exercise} is made
+SkillIntent position for a {Exercise}
+SkillIntent position for an {Exercise}
+SkillIntent position for {Exercise}
+SkillIntent position's for a {Exercise}
+SkillIntent position's for an {Exercise}
+SkillIntent position's for {Exercise}
+SkillIntent what is in a {Exercise}
+SkillIntent what is in an {Exercise}
+SkillIntent what is in {Exercise}
+SkillIntent what is the position for a {Exercise}
+SkillIntent what is the position for an {Exercise}
+SkillIntent what is the position for {Exercise}
+SkillIntent what's in a {Exercise}
+SkillIntent what's in an {Exercise}
+SkillIntent what's in {Exercise}
+SkillIntent what's the Exercise for a {Exercise}
+SkillIntent what's the Exercise for an {Exercise}
+SkillIntent what's the Exercise for {Exercise}
+SkillIntent how to craft {Exercise}
+SkillIntent how to craft a {Exercise}
+SkillIntent how to craft an {Exercise}
+SkillIntent how to make a {Exercise} Exercise
+SkillIntent how to make an {Exercise} Exercise
+SkillIntent how to make {Exercise} Exercise
+SkillIntent how to get a {Exercise} Exercise
+SkillIntent how to get an {Exercise} Exercise
+SkillIntent how to get {Exercise} Exercise
