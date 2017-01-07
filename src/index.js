@@ -48,8 +48,8 @@ HowTo.prototype.eventHandlers.onLaunch = function (launchRequest, session, respo
 };
 
 HowTo.prototype.intentHandlers = {
-    "ExerciseIntent": function (intent, session, response) {
-        var exerciseSlot = intent.slots.exercise,
+    "SkillIntent": function (intent, session, response) {
+        var exerciseSlot = intent.slots.Exercise,
             exerciseName;
         if (exerciseSlot && exerciseSlot.value){
             exerciseName = exerciseSlot.value.toLowerCase();
