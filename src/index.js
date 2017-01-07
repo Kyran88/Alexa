@@ -24,39 +24,39 @@
 var AlexaSkill = require('./AlexaSkill'),
     exercises = require('./exercises');
 
-var APP_ID = "amzn1.ask.skill.bb7a282d-0f4e-4792-be1e-85773ca97200"; 
+var APP_ID = "amzn1.ask.skill.bb7a282d-0f4e-4792-be1e-85773ca97200";   // undefined; //replace with 'amzn1.ask.skill.bb7a282d-0f4e-4792-be1e-85773ca97200';
 
 /**
  * To read more about inheritance in JavaScript, see the link below.
  *
  * @see https://developer.mozilla.org/en-US/docs/Web/JavaScript/Introduction_to_Object-Oriented_JavaScript#Inheritance
  */
-var ExerciseHowTo = function () {
+var HowTo = function () {
     AlexaSkill.call(this, APP_ID);
 };
 
 // Extend AlexaSkill
-ExerciseHowTo.prototype = Object.create(AlexaSkill.prototype);
-ExerciseHowTo.prototype.constructor = ExerciseHowTo;
+HowTo.prototype = Object.create(AlexaSkill.prototype);
+HowTo.prototype.constructor = HowTo;
 
-ExerciseHowTo.prototype.eventHandlers.onLaunch = function (launchRequest, session, response) {
-    var speechText = "Welcome to the Exercise How To. You can ask a question like, how do i perform a Squat? ... Now, what can I help you with.";
+HowTo.prototype.eventHandlers.onLaunch = function (launchRequest, session, response) {
+    var speechText = "Welcome to Fitness Guru. You can ask a question like, how do i perform a Squat? ... Now, what can I help you with.";
     // If the user either does not reply to the welcome message or says something that is not
     // understood, they will be prompted again with this text.
     var repromptText = "For instructions on what you can say, please say help me.";
     response.ask(speechText, repromptText);
 };
 
-ExerciseHowTo.prototype.intentHandlers = {
+HowTo.prototype.intentHandlers = {
     "ExerciseIntent": function (intent, session, response) {
-        var exerciseSlot = intent.slots.Exercise,
+        var exerciseSlot = intent.slots.exercise,
             exerciseName;
         if (exerciseSlot && exerciseSlot.value){
             exerciseName = exerciseSlot.value.toLowerCase();
         }
 
         var cardTitle = "exercise for " + exerciseName,
-            exercise = exercises[exerciseName],
+            exercise = exercise[exerciseName],
             speechOutput,
             repromptOutput;
         if (exercise) {
@@ -85,18 +85,18 @@ ExerciseHowTo.prototype.intentHandlers = {
     },
 
     "AMAZON.StopIntent": function (intent, session, response) {
-        var speechOutput = "Thanks for using Exercise How To. Enjoy a healthy lifestyle. Alexa Out!";
+        var speechOutput = "Thanks for using Fitness Guru. Now go do some squats and have fun. Alexa Out!";
         response.tell(speechOutput);
     },
 
     "AMAZON.CancelIntent": function (intent, session, response) {
-        var speechOutput = "Thanks for using Exercise How To. Enjoy a healthy lifestyle. Alexa Out";
+        var speechOutput = "Thanks for using Fitness Guru. Now go do some squats and have fun. Alexa Out";
         response.tell(speechOutput);
     },
 
     "AMAZON.HelpIntent": function (intent, session, response) {
-        var speechText = "You can ask questions about Exercises such as, how do i do Squats, or, you can say exit... Now, what can I help you with?";
-        var repromptText = "You can say things like, how do i Perform push-ups, or you can say exit... Now, what can I help you with?";
+        var speechText = "You can ask questions about Exercises such as, how do i Perform Push-ups, or, you can say stop... Now. what can I help you with?";
+        var repromptText = "You can say things like, how do i Perform Lunges, or you can say stop... Now, what can I help you with?";
         var speechOutput = {
             speech: speechText,
             type: AlexaSkill.speechOutputType.PLAIN_TEXT
@@ -110,6 +110,6 @@ ExerciseHowTo.prototype.intentHandlers = {
 };
 
 exports.handler = function (event, context) {
-    var ExerciseHowTo = new ExerciseHowTo();
-    ExerciseHowTo.execute(event, context);
+    var howTo = new HowTo();
+    howTo.execute(event, context);
 };
