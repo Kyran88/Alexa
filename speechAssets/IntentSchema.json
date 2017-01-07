@@ -1,10 +1,10 @@
 {
   "intents": [
     {
-      "intent": "ExerciseIntent",
+      "intent": "SkillIntent",
       "slots": [
       {
-        "name" : "exercises",
+        "name" : "Exercise",
         "type": "LIST_OF_EXERCISES"
       }
      ]
